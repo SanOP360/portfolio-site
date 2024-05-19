@@ -1,10 +1,6 @@
 
-import ProjectCard from "./ProjectCard";
-import ecommerceImg from "../../../public/images/Projects/EcommerceImg.webp"
-import expenseTrackerImg from "../../../public/Images/Projects/ExpenseTracker.jpg";
-import mailboxImg from "../../../public/Images/Projects/Mailbox.jpg";
-import chatAppImg from "../../../public/Images/Projects/chatApp.jpg";
-import portfolioImg from "../../../public/Images/Projects/PortfolioImg.jpg";
+import React from 'react';
+import ProjectCard from './ProjectCard';
 
 const projectData = [
   {
@@ -12,7 +8,7 @@ const projectData = [
     title: "Ecommerce Website",
     description:
       "A platform for buying music items with a cart system, authentication, and a Firebase backend. It includes a concert ticket booking page, as well as about and contact pages. The frontend is built with React and Redux, and React Router is used for routing.",
-    image: ecommerceImg,
+    image: "/Images/Projects/EcommerceImg.webp",
     githubLink: "https://github.com/SanOP360/EcommerceWebsite",
   },
   {
@@ -20,7 +16,7 @@ const projectData = [
     title: "Expense Tracker",
     description:
       "A comprehensive tool for tracking personal expenses. Features include adding expenses, premium membership purchase via Razorpay, leaderboard, and daily, monthly, and yearly expense reports. Users can download expenses and switch to dark mode. Backend built with Express and Sequelize.",
-    image: expenseTrackerImg,
+    image: "/Images/Projects/ExpenseTracker.jpg",
     githubLink: "https://github.com/SanOP360/BackendExpenseTracker",
   },
   {
@@ -28,7 +24,7 @@ const projectData = [
     title: "Mailbox App",
     description:
       "An application to send and receive emails with inbox and sent sections. Features proper authentication, using Firebase for the backend, and built with Redux, React Router, and Firebase.",
-    image: mailboxImg,
+    image: "/Images/Projects/Mailbox.jpg",
     githubLink: "https://github.com/SanOP360/mymailboxapp",
   },
   {
@@ -36,7 +32,7 @@ const projectData = [
     title: "Chat App",
     description:
       "A real-time chat application supporting private and group messages. Users can send messages and form groups to chat with multiple people. Built with React, Express, and Sequelize, using JWT for authentication.",
-    image: chatAppImg,
+    image: "/Images/Projects/chatApp.jpg",
     githubLink: "https://github.com/SanOP360/mychatBackend",
   },
   {
@@ -44,7 +40,7 @@ const projectData = [
     title: "Full Stack Portfolio Site",
     description:
       "A full-stack portfolio website built with React and Express. It showcases my skills and projects, and features sections for projects, about, and contact. The backend API, built with Node.js and Express.js, includes endpoints for adding and retrieving projects.",
-    image: portfolioImg,
+    image: "/Images/Projects/PortfolioImg.jpg",
     githubLink: "https://github.com/SanOP360/Portfolio",
   },
 ];
