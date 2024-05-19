@@ -44,7 +44,7 @@ const Tab_data = [
   },
 ];
 
-const AboutSection = ({id}) => {
+const AboutSection = ({ id }) => {
   const [tab, setTab] = useState("skills");
 
   const handleTabChange = (id) => {
@@ -52,7 +52,10 @@ const AboutSection = ({id}) => {
   };
 
   return (
-    <section id={id} className="text-white  p-10 rounded-xl shadow-2xl mx-auto max-w-7xl">
+    <section
+      id={id}
+      className="text-white  p-10 rounded-xl shadow-2xl mx-auto max-w-7xl"
+    >
       <div className="text-center mb-10">
         <h2 className="text-4xl font-extrabold text-white">About Me</h2>
         <p className="text-base lg:text-lg text-gray-400 mt-4 max-w-2xl mx-auto">
@@ -62,7 +65,7 @@ const AboutSection = ({id}) => {
           Additionally, I have experience in backend development using
           Sequelize, SQL, and Firebase. Alongside my web development skills, I
           excel in competitive coding, particularly in C++. I pursued my
-          Bachelor's in Electronics and Communication Engineering from
+          Bachelor&apos;s in Electronics and Communication Engineering from
           Uttarakhand Technical University, where I discovered my passion for
           coding during my second year. Since then, I have been dedicated to
           expanding my knowledge and honing my skills in software development.
